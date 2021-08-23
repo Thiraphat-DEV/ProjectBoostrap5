@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.carousel-item{
+    height: 500px;
+}
+.carousel-image-1{
+    background: url(../img/id1.jpg);
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url(../img/id2.jpg);
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url(../img/id3.jpg);
+    background-size: cover;
+}
+/* .carousel-image-4{
+    background: url(../img/id4.jpg);
+    background-size: cover;
+} */
+#about-name{
+    min-height: 200px;
+    position: relative;
+    background: url(../img/id5.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment:fixed;
+    color: #ffff;
+}
+.dark-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,.1);
+}
